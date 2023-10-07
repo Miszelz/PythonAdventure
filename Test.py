@@ -67,7 +67,7 @@ elif num > 50:
     print(f'Good job you scored {num}!')
 else:
     print(f'{num}... too bad!')
-'''
+
 
 nums = [2, 4, 6, 4]
 
@@ -85,6 +85,8 @@ for x in range(3):
 
 for x in nums[0:4:1]:
     print(x)
+
+    '''
 
 ## git init (tylko za pierwszym razem jak zakladasz repo)
 ## git add .
