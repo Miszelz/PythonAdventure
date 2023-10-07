@@ -1,7 +1,11 @@
-print ("gowno")
-x = 2+2
+def main():
+    print('Hello World!')
 
-print (x)
+if __name__ == '__main__':
+    main()
+name = input('Jak masz na imie?')
+
+print ('Siema {}!'.format(name))
 
 ## git init (tylko za pierwszym razem jak zakladasz repo)
 ## git add .
