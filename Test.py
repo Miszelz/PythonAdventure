@@ -147,8 +147,41 @@ def factorial(x):
 
 factorial(x)
 
-'''
 
+# lambda
+
+square = lambda x: x * x
+
+print(square(5))
+
+'''
+# Classes
+
+
+class Person:
+    def __init__(self, age, name, surname, height):
+        self.age = age
+        self.name = name
+        self.surname = surname
+        self. height = height
+        self.email = name + '.' + surname + '@company.com'
+
+    def fullname(self):
+        return '{} {}'.format(self.name, self.surname)
+    
+    def walk(self):
+        print("Walking")
+
+    def run(self):
+        print("Running")
+
+user_1 = Person(22, "Miszel", "Miszelski", 177)
+
+
+print(user_1.name)
+user_1.walk()
+print(user_1.email)
+print(user_1.fullname())
 
 
 ## git init (tylko za pierwszym razem jak zakladasz repo)
